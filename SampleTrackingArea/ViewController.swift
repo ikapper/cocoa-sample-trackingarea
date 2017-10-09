@@ -9,19 +9,10 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    override func mouseMoved(with event: NSEvent) {
+        // こちらで処理をしても良い
+        super.mouseMoved(with: event)
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
 }
 
