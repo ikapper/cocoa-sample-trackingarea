@@ -12,6 +12,7 @@
 		35FD84181F8BC26A00C2E658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FD84161F8BC26A00C2E658 /* Main.storyboard */; };
 		35FD84201F8BC49500C2E658 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD841F1F8BC49500C2E658 /* BaseView.swift */; };
 		35FD84221F8BC98400C2E658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD84211F8BC98400C2E658 /* AppDelegate.swift */; };
+		35FD84241F8C558400C2E658 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 35FD84231F8C558400C2E658 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		35FD84191F8BC26A00C2E658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35FD841F1F8BC49500C2E658 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		35FD84211F8BC98400C2E658 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35FD84231F8C558400C2E658 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		35FD84041F8BC26A00C2E658 = {
 			isa = PBXGroup;
 			children = (
+				35FD84231F8C558400C2E658 /* README.md */,
 				35FD840F1F8BC26A00C2E658 /* SampleTrackingArea */,
 				35FD840E1F8BC26A00C2E658 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				35FD84221F8BC98400C2E658 /* AppDelegate.swift in Sources */,
 				35FD84201F8BC49500C2E658 /* BaseView.swift in Sources */,
+				35FD84241F8C558400C2E658 /* README.md in Sources */,
 				35FD84131F8BC26A00C2E658 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +294,7 @@
 				35FD841E1F8BC26A00C2E658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
